@@ -1,0 +1,35 @@
+.TNW_global_header, .TNW_global_header input {
+    font: 200 1em/1.5em "Source Sans Pro",Arial,Helvetica,sans-serif;
+}
+.TNW_global_header {
+    height: 54px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+ /*   background: none repeat scroll 0% 0% #FFF; */
+ /*    border-bottom: 1px solid #E5E5E5; */
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fafafa),color-stop(1,#f5f5f5));
+
+box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); 
+   font-size: 14px !important;
+    line-height: 1.5em !important;
+    min-width: 100%;
+}
+
+
+header a#logo {
+    margin-top:-14px;
+    float:left;
+    width:43px;
+    height:40px;
+    background:url(tamil1-logo-1c-sd4.png) no-repeat;
+    transition:.2s all;
+    display:inline-block
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dppx) {
+header a#logo {
+    background:url(tamil1-logo-2c-sd4.png) no-repeat left!important;
+    background-size:cover!important
+}
+}
